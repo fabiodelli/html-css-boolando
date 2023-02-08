@@ -104,6 +104,11 @@ main{
 
 .card{
     position: relative;
+    width:calc(100%/3)
+}
+
+.Footer{
+    background: black;
 }
 
 
