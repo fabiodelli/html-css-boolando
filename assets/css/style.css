@@ -37,6 +37,9 @@ nav {
     justify-content: center;
     height: 4rem;
     background: #ff6900;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 a {
