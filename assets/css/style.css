@@ -31,15 +31,18 @@
 
 
 /* Header------------------ */
+header{
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
 
 nav {
     display: flex;
     justify-content: center;
     height: 4rem;
     background: #ff6900;
-    position: sticky;
-    width: 100%;
-    z-index: 2;
+    
 }
 
 a {
@@ -73,7 +76,7 @@ a {
 }
 
 .m-top{
-    margin: 3rem;
+    padding-top: 3rem;
 }
 
 /* Main---------------------------- */
