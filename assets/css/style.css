@@ -25,6 +25,10 @@
     display: flex;
 }
 
+.m-r{
+    margin-right: 0.2rem;
+}
+
 
 /* Header------------------ */
 
@@ -165,3 +169,4 @@ footer {
 .social-size {
     font-size: 30px;
 }
+
