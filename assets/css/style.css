@@ -37,7 +37,7 @@ nav {
     justify-content: center;
     height: 4rem;
     background: #ff6900;
-    position: fixed;
+    position: sticky;
     width: 100%;
     z-index: 2;
 }
@@ -64,11 +64,16 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 70%;
+    
 }
 
 .nav-logo {
     height: 30px;
     margin-right: 7rem;
+}
+
+.m-top{
+    margin: 3rem;
 }
 
 /* Main---------------------------- */
@@ -107,6 +112,10 @@ main {
 .card:hover .img-2 {
     display: inline-block;
     cursor: pointer;
+}
+
+.card:hover .heart {
+    color:#ff1112 ;
 }
 
 .label-red {
